@@ -3,7 +3,7 @@
     "allOpen": "Alle offenen Prozesse",
     "allProcesses": "Alle Prozesse",
     "animation": "Animation",
-    "enabled": "Aktiviert",
+    "enabled": "Aktiv",
     "fast": "Schnell",
     "fastest": "Schnellste",
     "mode": "Modus",
@@ -19,13 +19,13 @@
   "artifact": {
     "callerData": "Aufruferdaten",
     "deleteConfirm": "Sind Sie sicher, dass Sie dieses {{artifact}} löschen möchten?",
-    "namespace": "Namensraum",
+    "namespace": "Namensbereich",
     "new": "Neues {{type}} erstellen",
     "optional": "Optional"
   },
   "browser": {
     "devBrowser": "Entwicklungsbrowser",
-    "goBack": "Zurückgehen",
+    "goBack": "Gehe zurück",
     "goForward": "Vorwärtsgehen",
     "goHome": "Zur Startseite gehen",
     "openNewTab": "In neuem Tab öffnen",
@@ -187,7 +187,7 @@
       "creating": "Formular wird erstellt",
       "missing": "Formulare konnten nicht geladen werden",
       "removed": "Formular gelöscht",
-      "removeFail": "Formular '{{id}}' konnte nicht gelöscht werden",
+      "removeFail": "Arbeitsbereich '{{id}}' konnte nicht gelöscht werden",
       "removing": "Formular wird gelöscht"
     },
     "market": {
@@ -246,7 +246,7 @@
     "importInto": "Axon Ivy Projekte importieren nach: {{workspace}}",
     "importMarket": "Aus Markt importieren",
     "importProject": "Projekte importieren",
-    "importWarning": "Der Import kann bestehende Projektversionen überschreiben.",
+    "importWarning": "Der Import kann bestehende Projektversionen überschreiben. ",
     "importWarningLink": "Erwägen Sie, den Arbeitsbereich vorher zu exportieren.",
     "info": "Ein Arbeitsbereich ist der Entwicklungsbereich, in dem eine Anwendung erstellt und getestet wird. Hier werden Geschäftsprozesse entworfen, in der Vorschau angezeigt und simuliert, bevor sie als funktionierende Anwendung bereitgestellt werden.",
     "newWorkspace": "Neuen Arbeitsbereich erstellen",
