@@ -1,6 +1,58 @@
 {
-    "animation": {
-        "allOpen": "Todos os processos abertos",
-        "allProcesses": "Todos os processos"
+  "animation": {
+    "allOpen": "Todos os processos abertos",
+    "allProcesses": "Todos os processos",
+    "animation": "Animação",
+    "normal": "Normal",
+    "fast": "Rápido",
+    "mode": "Modo",
+    "reset": "Reiniciar",
+    "slow": "Lento",
+    "speed": "Velocidade",
+    "enabled": "Habilitado"
+  },
+  "deploy": {
+    "applicationName": "Nome da aplicação:"
+  },
+  "deploys": {
+    "closeLog": "Copiar registo"
+  },
+  "settings": {
+    "dark": "Escuro",
+    "language": "Idioma",
+    "theme": "Tema",
+    "light": "Claro",
+    "simulate": "Simular",
+    "system": "Sistema"
+  },
+  "workspaces": {
+    "newWorkspace": "Criar nova área de trabalho",
+    "importFile": "Importar do ficheiro"
+  },
+  "artifact": {
+    "namespace": "Espaço de nome",
+    "optional": "Opcional"
+  },
+  "browser": {
+    "goBack": "Voltar Atrás",
+    "goForward": "Avançar",
+    "openNewTab": "Abrir novo separador",
+    "reloadPage": "Refrescar a página"
+  },
+  "market": {
+    "showDetails": "Ver detalhes"
+  },
+  "neo": {
+    "configs": "Definições",
+    "forms": "Formulários",
+    "projects": "Projetos"
+  },
+  "project": {
+    "editable": "Editável"
+  },
+  "toast": {
+    "project": {
+      "removed": "Projeto removido"
     }
+  }
 }
