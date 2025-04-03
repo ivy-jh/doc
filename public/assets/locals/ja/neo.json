@@ -158,5 +158,13 @@
     "newWorkspace": "新しいワークスペースを作成",
     "title": "{{neo}}へようこそ：ワークスペースを管理",
     "wsTitle": "ワークスペースへようこそ：{{workspace}}"
+  },
+  "toast": {
+    "dependency": {
+      "remove": "依存関係を削除"
+    },
+    "project": {
+      "removed": "プロジェクト削除"
+    }
   }
 }
