@@ -1,5 +1,6 @@
 {
     "animation": {
-        "allOpen": "Todos os processos abertos"
+        "allOpen": "Todos os processos abertos",
+        "allProcesses": "Todos os processos"
     }
 }
