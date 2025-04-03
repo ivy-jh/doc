@@ -40,6 +40,12 @@
     "attribute": "Atributo",
     "category": "Categoria",
     "save": "Guardar",
-    "type": "Tipo"
+    "type": "Tipo",
+    "mapping": "nahan"
+  },
+  "hotkey": {
+    "focusInscription": "Inscrição de Foco ({{hotkey}})",
+    "focusMain": "Foco Principal ({{hotkey}})",
+    "focusToolbar": "Barra de ferramentas de foco ({{hotkey}})"
   }
 }
