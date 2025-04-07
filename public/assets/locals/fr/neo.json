@@ -162,14 +162,24 @@
   },
   "toast": {
     "dependency": {
-      "remove": "Supprimer la dépendance"
+      "remove": "Supprimer la dépendance",
+      "missing": "Échec de l'ouverture du projet"
     },
     "form": {
       "created": "Formulaire créé",
-      "createFail": "Le formulaire n'a pu être créé"
+      "createFail": "Le formulaire n'a pu être créé",
+      "missing": "Echec chargement fichier"
     },
     "project": {
-      "removed": "Projet supprimé"
+      "removed": "Projet supprimé",
+      "missing": "Échec de l'ouverture du projet",
+      "removing": "Supprimer le projet"
+    },
+    "workspace": {
+      "importing": "Importer des projets",
+      "removing": "Supprimer l'espace de travail",
+      "creating": "Créer l'espace de travail",
+      "deploying": "Déployer l'espace de travail"
     }
   }
 }
