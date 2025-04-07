@@ -52,7 +52,8 @@
     "target": "現在のワークスペースをデプロイするエンジンを指定します。"
   },
   "deploys": {
-    "closeLog": "ログをコピー"
+    "closeLog": "ログをコピー",
+    "copiedLog": "クリップボードにコピーしたログ"
   },
   "forms": {
     "formDescription": "フォームは、データ入力とアプリケーションとの対話を容易にするユーザーインターフェイス要素であり、ユーザーとシステム間の橋渡しとして機能します。",
@@ -104,7 +105,8 @@
     "formPackaged": "フォームは、それが属するプロジェクトがパッケージ化されているため削除できません。",
     "invalidChar": "無効な文字'{{- char}}'が'{{- str}}'の{{pos}}の位置にあります。",
     "invalidIar": ".iarファイルまたは.iarファイルを含む.zipファイルを選択してください。",
-    "processPackaged": "プロセスは、それが属するプロジェクトがパッケージ化されているため削除できません。"
+    "processPackaged": "プロセスは、それが属するプロジェクトがパッケージ化されているため削除できません。",
+    "loadEngineVersionFail": "エンジンバージョンをロードできなかった"
   },
   "neo": {
     "addDependency": "プロジェクトに依存関係として追加",
@@ -161,10 +163,98 @@
   },
   "toast": {
     "dependency": {
-      "remove": "依存関係を削除"
+      "remove": "依存関係を削除",
+      "added": "依存性を追加",
+      "removed": "依存性削除",
+      "addFail": "依存関係を追加する失敗",
+      "adding": "依存関係を追加する",
+      "missing": "プロジェクトをロードできなかった",
+      "removeFail": "依存関係を削除する失敗 '{{pmv}}'"
     },
     "project": {
-      "removed": "プロジェクト削除"
-    }
+      "removed": "プロジェクト削除",
+      "bpmnEngineStopping": "BPM停止 エンジン",
+      "removing": "プロジェクトの削除",
+      "bpmnEngineStopFail": "プロジェクト「{{pmv}}のBPMエンジンを停止できなかった お問い合わせ",
+      "bpmnEngineStopped": "ツイート エンジン停止",
+      "missing": "プロジェクトをロードできなかった",
+      "removeFail": "プロジェクト '{{pmv}}' を削除失敗"
+    },
+    "process": {
+      "creating": "プロセスの作成",
+      "created": "プロセス作成",
+      "createFail": "プロセスを作成する失敗",
+      "missing": "プロセスをロードできなかった",
+      "removed": "プロセス削除",
+      "removeFail": "プロセスを削除する失敗 '{{pid}}'",
+      "removing": "プロセスの除去"
+    },
+    "workspace": {
+      "deployed": "ワークスペースの展開",
+      "exported": "ワークスペースの輸出",
+      "removing": "ワークスペースの削除",
+      "created": "ワークスペース作成",
+      "createFail": "ワークスペースを作成する失敗",
+      "creating": "ワークスペースの作成",
+      "deployFail": "ワークスペース '{{id}}' をデプロイできなかった",
+      "deploying": "ワークスペースの展開",
+      "exportFail": "ワークスペース「{{id}}」をエクスポートできない",
+      "exporting": "ワークスペースのエクスポート",
+      "imported": "ワークスペースにインポートされたプロジェクト",
+      "importFail": "ワークスペース '{{id}}' をインポートできなかった",
+      "importing": "プロジェクトのインポート",
+      "marketInstallFail": "市場製品をインストールする失敗",
+      "marketProductInstalled": "インポートされたプロジェクト: {{projects}}",
+      "marketProductInstalling": "市場製品のインストール",
+      "missing": "ワークスペースをロードできなかった",
+      "removed": "ワークスペース削除",
+      "removeFail": "'{{id}}から削除できない お問い合わせ"
+    },
+    "animation": {
+      "disabled": "アニメーション禁止",
+      "enabled": "アニメーション機能",
+      "mode": "アニメーションモード: {{mode}}",
+      "speed": "アニメーション速度: {{speed}}"
+    },
+    "config": {
+      "writing": "設定を書く",
+      "missing": "設定をロードできなかった",
+      "readFail": "{{app}} {{pmv}} {{path}}",
+      "saved": "設定を保存 完了",
+      "writeFail": "{{app}} {{pmv}} {{path}}"
+    },
+    "dataClass": {
+      "create": "データクラスの作成",
+      "created": "データクラス作成",
+      "creationFail": "データクラスを作成する失敗",
+      "missing": "データクラスをロードできなかった",
+      "removeFail": "データクラス「{{name}}を削除できなかった お問い合わせ",
+      "removing": "データクラスの削除",
+      "removed": "データクラス削除"
+    },
+    "editor": {
+      "fileTypeIncompatible": "'{{type}}' を NEO で編集することはできません.",
+      "unknownType": "未知のエディタタイプ",
+      "unknownTypeForPath": "パスの未知のエディタタイプ {{path}}"
+    },
+    "form": {
+      "created": "フォーム作成",
+      "createFail": "フォームを作成する失敗",
+      "creating": "フォームの作成",
+      "missing": "フォームを読み込む失敗",
+      "removed": "フォーム削除",
+      "removeFail": "'{{id}}から削除できない お問い合わせ",
+      "removing": "フォームの削除"
+    },
+    "market": {
+      "inaccsessible": "多分市場は現在アクセスできません",
+      "loadBestMatchingFail": "エンジンバージョン {{engineVersion}} で {{id}} に最適なマーケットアーティファクトバージョンをロードできなかった",
+      "loadFail": "{{id}} の市場製品バージョンをロードできなかった",
+      "loadJsonFail": "バージョン{{version}}で製品jsonを{{id}}にロードできなかった",
+      "missing": "市場製品をロードできなかった",
+      "versionUndefined": "{{id}} のアーティファクトバージョンは、製品 json を取得するために定義する必要があります"
+    },
+    "serverStatus": "サーバが破損していない",
+    "unauthorized": "未承認、リロードをクリックしてログインします."
   }
 }
