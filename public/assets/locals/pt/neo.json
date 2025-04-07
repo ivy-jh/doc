@@ -9,13 +9,24 @@
     "reset": "Reiniciar",
     "slow": "Lento",
     "speed": "Velocidade",
-    "enabled": "Habilitado"
+    "enabled": "Habilitado",
+    "fastest": "Mais rápido",
+    "noDialog": "Sem processos de diálogo",
+    "onlyCurrenltyOpen": "Apenas processo aberto atual",
+    "slowest": "Mais devagar",
+    "noEmbedded": "Sem processos incorporados"
   },
   "deploy": {
-    "applicationName": "Nome da aplicação:"
+    "applicationName": "Nome da aplicação:",
+    "deployWs": "Implementar espaço de trabalho",
+    "engineUrl": "Url do motor",
+    "log": "Registro de implantação",
+    "target": "Especifique o motor ao qual deseja implantar o espaço de trabalho atual.",
+    "logDescription": "Saída de log retornada do motor."
   },
   "deploys": {
-    "closeLog": "Copiar registo"
+    "closeLog": "Copiar registo",
+    "copiedLog": "Log copiado para a área de transferência"
   },
   "settings": {
     "dark": "Escuro",
@@ -23,36 +34,223 @@
     "theme": "Tema",
     "light": "Claro",
     "simulate": "Simular",
-    "system": "Sistema"
+    "system": "Sistema",
+    "languageSwitch": "Interruptor de idioma"
   },
   "workspaces": {
     "newWorkspace": "Criar nova área de trabalho",
-    "importFile": "Importar do ficheiro"
+    "importFile": "Importar do ficheiro",
+    "description": "Aqui você pode encontrar os projetos que você criou junto com quaisquer projetos importados neste workspace. Um projeto contém todos os componentes essenciais necessários para construir uma aplicação.",
+    "importWarningLink": "Considere a exportação do espaço de trabalho de antemão.",
+    "importInto": "Importar Projetos Ivy Axon em: {{workspace}}",
+    "importMarket": "Importação de Mercado",
+    "importProject": "Projetos de importação",
+    "importWarning": "A importação pode substituir as versões existentes do projeto. ",
+    "info": "Um espaço de trabalho é a área de desenvolvimento onde uma aplicação é construída e testada. É o espaço onde seus processos de negócios são projetados, visualizados e simulados antes de serem implantados como uma aplicação funcional.",
+    "title": "Bem-vindo a {{neo}}: Gerencie seus espaços de trabalho",
+    "wsTitle": "Bem-vindo ao seu workspace: {{workspace}}"
   },
   "artifact": {
     "namespace": "Espaço de nome",
-    "optional": "Opcional"
+    "optional": "Opcional",
+    "callerData": "Dados de chamada",
+    "deleteConfirm": "Tem certeza de que deseja excluir este {{artifact}}?",
+    "new": "Criar novo {{type}}"
   },
   "browser": {
     "goBack": "Voltar Atrás",
     "goForward": "Avançar",
     "openNewTab": "Abrir novo separador",
-    "reloadPage": "Refrescar a página"
+    "reloadPage": "Refrescar a página",
+    "goHome": "Ir para casa",
+    "simulate": "Simulação de processos",
+    "devBrowser": "Navegador de Dev"
   },
   "market": {
-    "showDetails": "Ver detalhes"
+    "showDetails": "Ver detalhes",
+    "install": "Instalar {{component}}",
+    "selectVersion": "Selecione a versão a ser instalada",
+    "title": "Mercado Ivy de Axon",
+    "description": "Aqui você pode encontrar e baixar componentes, modelos e soluções reutilizáveis para acelerar o desenvolvimento."
   },
   "neo": {
     "configs": "Definições",
     "forms": "Formulários",
-    "projects": "Projetos"
+    "projects": "Projetos",
+    "dataClasses": "Classes de dados",
+    "groupId": "Grupo",
+    "home": "NEO Home",
+    "monaco": "Editor de Mônaco",
+    "processes": "Processos",
+    "project": "Projeto: {{proj}}",
+    "addDependency": "Adicionar como dependência ao projeto",
+    "artifactId": "Artefacturado"
   },
   "project": {
     "editable": "Editável"
   },
   "toast": {
     "project": {
-      "removed": "Projeto removido"
-    }
+      "removed": "Projeto removido",
+      "bpmnEngineStopFail": "Falhado para parar o motor BPM para projeto '{{pmv}} '",
+      "bpmnEngineStopped": "BPM Motor parou",
+      "bpmnEngineStopping": "Parar BPM Motor",
+      "missing": "Falhados em projetos de carga",
+      "removeFail": "Falhado em remover o projeto '{{pmv}}'",
+      "removing": "Removendo projeto"
+    },
+    "animation": {
+      "disabled": "Deficiente de animação",
+      "enabled": "Animação ativada",
+      "mode": "Modo de animação: {{mode}}",
+      "speed": "Velocidade de animação: {{speed}}"
+    },
+    "config": {
+      "missing": "Falhado em configurações de carga",
+      "writeFail": "Falhado em escrever configuração para {{app}} {{pmv}} {{path}}",
+      "saved": "Salvando a configuração concluída",
+      "writing": "Escrevendo config",
+      "readFail": "Falhado em ler configuração com params: {{app}} {{pmv}} {{path}}"
+    },
+    "dataClass": {
+      "create": "Criando classe de dados",
+      "created": "Classe de dados criada",
+      "creationFail": "Falhado para criar classe de dados",
+      "missing": "Falhado em carregar classes de dados",
+      "removed": "Classe de dados removida",
+      "removing": "Removendo a classe de dados",
+      "removeFail": "Falhado para remover a classe de dados '{{name}} '"
+    },
+    "dependency": {
+      "adding": "Adicionando dependência",
+      "missing": "Falhados em projetos de carga",
+      "remove": "Remover dependência",
+      "removed": "Dependência removida",
+      "added": "Dependência adicionada",
+      "addFail": "Falhado para adicionar dependência",
+      "removeFail": "Falhado para remover dependência '{{pmv}}'"
+    },
+    "editor": {
+      "fileTypeIncompatible": "Este tipo de ficheiro '{{type}}' não pode ser editado em NEO.",
+      "unknownType": "Tipo de editor desconhecido",
+      "unknownTypeForPath": "Tipo de editor desconhecido para caminho {{path}}"
+    },
+    "form": {
+      "creating": "Criando forma",
+      "missing": "Falhados em formas de carga",
+      "removed": "Formulário removido",
+      "removeFail": "Falhado para remover de '{{id}} '",
+      "removing": "Remover formulário",
+      "created": "Forma criada",
+      "createFail": "Falhado para criar forma"
+    },
+    "market": {
+      "inaccsessible": "Talvez o mercado não seja acessível",
+      "loadBestMatchingFail": "Falhado para carregar a melhor versão de artefato de mercado correspondente para {{id}} com versão do motor {{engineVersion}}",
+      "loadFail": "Não foi possível carregar versões de produtos do mercado para {{id}}",
+      "loadJsonFail": "Falhado em carregar o produto json para {{id}} com a versão {{version}}",
+      "missing": "Falhados para carregar produtos de mercado",
+      "versionUndefined": "Versão de arte de {{id}} precisa ser definida para recuperar o produto json"
+    },
+    "process": {
+      "missing": "Falhados em processos de carga",
+      "removed": "Processo removido",
+      "removeFail": "Falhado para remover o processo '{{pid}}'",
+      "removing": "Remoção de processo",
+      "created": "Processo criado",
+      "createFail": "Falhado para criar processo",
+      "creating": "Criando processo"
+    },
+    "workspace": {
+      "created": "Espaço de trabalho criado",
+      "createFail": "Falhado para criar espaço de trabalho",
+      "creating": "Criando espaço de trabalho",
+      "deployed": "Espaço de trabalho implantado",
+      "deployFail": "Falhado em implantar workspace '{{id}}'",
+      "deploying": "Implantação do espaço de trabalho",
+      "exported": "Espaço de trabalho exportado",
+      "exportFail": "Falhado em exportar espaço de trabalho '{{id}}'",
+      "marketInstallFail": "Falhado para instalar produto de mercado",
+      "marketProductInstalled": "Projectos importados: {{projects}}",
+      "marketProductInstalling": "Instalando o produto de mercado",
+      "missing": "Falhado para carregar espaços de trabalho",
+      "removed": "Espaço de trabalho excluído",
+      "removeFail": "Falhado para remover de '{{id}} '",
+      "removing": "Excluindo espaço de trabalho",
+      "exporting": "Exportação de espaço de trabalho",
+      "imported": "Projectos importados no espaço de trabalho",
+      "importFail": "Falhado em importar espaço de trabalho '{{id}}'",
+      "importing": "Projectos de importação"
+    },
+    "unauthorized": "Não autorizado, clique em recarregar para fazer login.",
+    "serverStatus": "Talvez o servidor não esteja correto"
+  },
+  "dataclasses": {
+    "newDataclass": "Criar nova classe de dados",
+    "dataclassDescription": "Uma classe de dados é usada para definir e estruturar os dados dentro de uma aplicação de processo. É usado para gerenciar dados de forma consistente em processos e formas."
+  },
+  "hotkey": {
+    "deploy": "Implantar espaço de trabalho ({{hotkey}})",
+    "exportWorkspace": "Export Workspace ({{hotkey}})",
+    "focusNavigation": "Navegação de foco ({{hotkey}})",
+    "focusTabs": "Guias de Foco ({{hotkey}})",
+    "importFile": "Importação do arquivo ({{hotkey}})",
+    "importMarket": "Importação do Mercado ({{hotkey}})",
+    "openSim": "Simulação aberta ({{hotkey}})",
+    "processes": "Processos ({{hotkey}})",
+    "resetBpm": "Repor o motor BPM ({{hotkey}})",
+    "resizeSim": "Redimensionar Simulação ({{hotkey}})",
+    "themeSwitch": "Interruptor de tema ({{hotkey}})",
+    "animationMode": "Modo de animação ({{hotkey}})",
+    "animationSpeed": "Velocidade de animação ({{hotkey}})",
+    "closeAllTabs": "Fechar Todos os separadores ({{hotkey}})",
+    "closeTab": "Close Tab ({{hotkey}})",
+    "configurations": "Configurações ({{hotkey}})",
+    "dataClasses": "Classes de Dados ({{hotkey}})",
+    "deleteElement": "Eliminar elemento ({{hotkey}})",
+    "forms": "Formulários ({{hotkey}})",
+    "home": "Home ({{hotkey}})",
+    "toggleAnimation": "Toggle Animation ({{hotkey}})",
+    "workspaces": "Espaços de trabalho ({{hotkey}})"
+  },
+  "label": {
+    "removeDependency": "Remover Dependência",
+    "businessData": "Dados de negócio",
+    "entity": "Entidade"
+  },
+  "message": {
+    "artifactNotEmpty": "O nome de arte não deve estar vazio.",
+    "artifctExisting": "Artifact {{name}} já existe.",
+    "artifiactNamespaceNotEmpty": "Artifact namespace não deve estar vazio.",
+    "capitalizeName": "Recomenda-se capitalizar a primeira letra.",
+    "formPackaged": "O formulário não pode ser excluído como o projeto a que pertence é embalado.",
+    "invalidChar": "Personagem inválido '{{- char}}' na posição {{pos}} em '{{- str}}'.",
+    "invalidIar": "Selecione um arquivo .iar ou um arquivo .zip que contenha arquivos .iar.",
+    "loadEngineVersionFail": "Falhado para carregar a versão do motor",
+    "processPackaged": "O processo não pode ser excluído como o projeto a que pertence é embalado.",
+    "dataclassPackaged": "A classe de dados não pode ser excluída como o projeto a que pertence é embalado.",
+    "dependencyPackaged": "A dependência não pode ser excluída como o projeto em mãos é empacotado."
+  },
+  "processes": {
+    "newProcess": "Criar novo processo",
+    "processDescription": "Um processo descreve uma sequência de etapas automatizadas que otimizam fluxos de trabalho e permite um gerenciamento eficiente de tarefas dentro de uma aplicação."
+  },
+  "projects": {
+    "addDependency": "Adicionar nova dependência",
+    "addDependencyTo": "Adicionar dependência a: {{project}}",
+    "deletable": "Deletável",
+    "dependecyInfo": "As dependências são links entre projetos que permitem que um projeto acesse a funcionalidade ou artefatos de outro e evite trabalhos duplicados.",
+    "dependencyDetails": "Detalhes de dependência de: {{project}}",
+    "description": "Aqui você pode visualizar as dependências do projeto.",
+    "details": "Detalhes do projeto: {{project}}",
+    "editRights": "Editar direitos",
+    "selectDependency": "Selecione a dependência"
+  },
+  "configurations": {
+    "configDescription": "As configurações são as configurações e parâmetros que definem como uma aplicação se comporta e interage com outros sistemas."
+  },
+  "forms": {
+    "formDescription": "Um formulário é um elemento de interface de usuário que facilita a entrada de dados e interação com o aplicativo, atuando como uma ponte entre os usuários e o sistema.",
+    "newForm": "Criar novo formulário"
   }
 }
